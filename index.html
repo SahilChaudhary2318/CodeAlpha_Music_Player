@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <h1>Song Gallery</h1>
+        <div class="songs">
+            <div class="song-item" data-index="0">
+                <img src="cover1.jpg" alt="Cover 1">
+                <p>Song 1 - Artist 1</p>
+            </div>
+            <div class="song-item" data-index="1">
+                <img src="cover2.jpg" alt="Cover 2">
+                <p>Song 2 - Artist 2</p>
+            </div>
+            <div class="song-item" data-index="2">
+                <img src="cover3.jpg" alt="Cover 3">
+                <p>Song 3 - Artist 3</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="music-player">
+        <h2 id="song-title">Song Title</h2>
+        <audio id="audio-player" src="songs/song1.mp3"></audio>
+        <div class="controls">
+            <button id="prev-btn">⏮️</button>
+            <button id="play-pause-btn">▶️</button>
+            <button id="next-btn">⏭️</button>
+        </div>
+        <div class="info">
+            <p id="artist">Artist Name</p>
+            <p id="current-time">00:00</p> / <p id="duration">00:00</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
