@@ -18,21 +18,13 @@ Project Structure
     ├── index.html         # HTML file for the structure
     ├── styles.css         # CSS file for styling the gallery and player
     ├── script.js          # JavaScript file to handle player functionality
-    ├── /songs/            # Folder containing the audio files
-         ├── song1.mp3
-         ├── song2.mp3
-         ├── song3.mp3
-    └── /images/           # Folder containing the cover images
-         ├── cover1.jpg
-         ├── cover2.jpg
-         └── cover3.jpg
 
 Open the project:
 
 Open the index.html file in your browser to see the music player in action.
 Add Your Own Songs:
 
-Place your .mp3 files inside the songs folder.
+Place your .mp3.
 Update the songs array in the script.js file with your song's details (title, artist, and file path).
 Place corresponding cover images in the images folder.
 
@@ -40,10 +32,6 @@ Technologies Used:
 HTML5: For structuring the webpage.
 CSS3: For styling the gallery and player.
 JavaScript: For handling player controls and interaction.
-
-Customization:
-Adding More Songs:
-Add new audio files to the /songs/ folder.
 
 Update the songs array in script.js with the new song details:
 javascript
